@@ -1797,62 +1797,6 @@
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -1,
-      "description": "Timmy is a messy person. il tends to leave dirt and trash where ever il goes and is slow to clean up after luiself.",
-      "stats": [
-        "-50% multiplicateur de vitesse de nettoyage",
-        "x200% taux de saleté"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "-50% multiplicateur de vitesse de nettoyage",
-          "x200% taux de saleté"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Cleaning Speed",
-        "karmaTypeForAdding": null
-      },
-      "defName": "CleaningSpeedOffset",
-      "name": "slovenly"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1,
-      "description": "Timmy likes clean environments. il cleans quickly and avoids leaving dirt and trash.",
-      "stats": [
-        "+50% multiplicateur de vitesse de nettoyage",
-        "x50% taux de saleté"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "+50% multiplicateur de vitesse de nettoyage",
-          "x50% taux de saleté"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Cleaning Speed",
-        "karmaTypeForAdding": null
-      },
-      "defName": "CleaningSpeedOffset",
-      "name": "fastidious"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy a tendance à laisser son esprit dériver de temps en temps, même en plein travail.",
       "stats": [
@@ -3353,6 +3297,172 @@
       },
       "defName": "VTE_Schizoid",
       "name": "schizoïdie"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy est entombéPAWN_gender ? : e  dans un warcasket. Aucune douleur n'aura d'effet sur lui, et il ne pourra jamais subir un choc à la douleur ou perdre connaissance à cause de la douleur. À cause de l'encombrement de l'armure et de la quantité d'énergie nécessaire pour l'utiliser, Timmy n'est plus en mesure d'effectuer le moindre travail.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Factions Expanded - Pirates",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VFEP_WarcasketTrait",
+      "name": "warcasket"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy a été entombé dans un warcasket, puis brutalement retiré de celui-ci. Les lésions neurales et nerveuses causées par le débranchement sont si graves que Timmy souffre constamment de douleurs atroces et peut à peine rassembler ses pensées. Seule la réinstallation de Timmy dans un warcasket peut guérir les symptômes.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Factions Expanded - Pirates",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VFEP_Shellcasket",
+      "name": "horsduwarcasket"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy profite de la solitude et de la tranquillité inhérentes aux longues sessions de pêche. il préférera la pêche aux autres activités.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Fishing Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VCEF_Fisherman",
+      "name": "pêcheur"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Le corps ou l'esprit de Timmy est remplit de perspicacité et d'expérience. Alors que certains les trouvent démodés, d'autres respecteront leurs conseils.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Ideology Expanded - Memes and Structures",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VME_Elder",
+      "name": "aîné"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy est toujours prêtPAWN_gender ? : e  à faire un commentaire charmant ou un compliment plaisant, ce qui remonte le moral de ceux qui l'entourent. il a le don de faire en sorte que les autres se sentent spéciaux et désirés, mais cela peut parfois conduire à des situations compliquées lorsque ses intentions ludiques sont mal interprétées.",
+      "stats": [],
+      "conflicts": [
+        "incisif",
+        "psychopathe"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "incisif",
+          "psychopathe"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Races Expanded - Highmate",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VRE_Flirty",
+      "name": "flirt"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy est exceptionnellement empathique et sensible à la souffrance des autres. Chaque fois qu'il est témoin d'une souffrance ou d'une épreuve, cela l'affecte profondément et les souvenirs de ces événements lPAWN_gender ? e : a  hantent pendant très longtemps.",
+      "stats": [],
+      "conflicts": [
+        "sanguinaire",
+        "psychopathe"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "sanguinaire",
+          "psychopathe"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Races Expanded - Highmate",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VRE_Distressed",
+      "name": "bouleversé"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "text.todo",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Psycasts Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VPE_Thrall",
+      "name": "thrall"
     }
   ],
   "races": [
@@ -3377,33 +3487,7 @@
       "enabled": true,
       "name": "humain",
       "price": 2000
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+70.00 Poids",
-          "+100% Inflammabilité",
-          "-60.0C Température minimale de confort",
-          "+200.0C Température maximale de confort",
-          "+0% Sensibilité psychique",
-          "+0% Résistance à la toxicité",
-          "+0 Quantité de viande",
-          "+0 Quantité de cuir",
-          "+0 Capacité de transport",
-          "+0.00% Impact des discussions",
-          "+0.0% Armure - Contondant",
-          "+0.0% Armure - Perforant",
-          "+0.0% Armure - Protection thermique"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Un zombie.",
-      "defName": "Zombie",
-      "enabled": false,
-      "name": "zombie",
-      "price": 1
     }
   ]
 }
+
