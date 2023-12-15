@@ -86,6 +86,11 @@
 		"karmatype": "Good"
 	},
 	{
+		"abr": "tradercaravan",
+		"price": 350,
+		"karmatype": "Good"
+	},
+	{
 		"abr": "orbitaltraderarrival",
 		"price": 350,
 		"karmatype": "Good"
@@ -351,5 +356,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 70
+	"total": 71
 }
