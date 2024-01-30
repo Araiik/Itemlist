@@ -3463,6 +3463,62 @@
       },
       "defName": "VPE_Thrall",
       "name": "thrall"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -1,
+      "description": "Timmy is a messy person. il tends to leave dirt and trash where ever il goes and is slow to clean up after luiself.",
+      "stats": [
+        "-50% multiplicateur de vitesse de nettoyage",
+        "x200% taux de saleté"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-50% multiplicateur de vitesse de nettoyage",
+          "x200% taux de saleté"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Cleaning Speed",
+        "karmaTypeForAdding": null
+      },
+      "defName": "CleaningSpeedOffset",
+      "name": "slovenly"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1,
+      "description": "Timmy likes clean environments. il cleans quickly and avoids leaving dirt and trash.",
+      "stats": [
+        "+50% multiplicateur de vitesse de nettoyage",
+        "x50% taux de saleté"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+50% multiplicateur de vitesse de nettoyage",
+          "x50% taux de saleté"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Cleaning Speed",
+        "karmaTypeForAdding": null
+      },
+      "defName": "CleaningSpeedOffset",
+      "name": "fastidious"
     }
   ],
   "races": [
@@ -3490,4 +3546,3 @@
     }
   ]
 }
-
